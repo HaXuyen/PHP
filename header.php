@@ -14,6 +14,27 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
+    <style>
+    .float{
+        margin: 30px;
+        
+    }
+    a.btndb{
+        text-decoration: none;
+        margin: 20px;
+    }
+    a.btntxlh{
+        text-decoration: none;
+        margin: 20px;
+    }
+    a.btnlhtl{
+        text-decoration: none;
+        margin:20px;
+    }
+    .dropdownshow{
+        margin: 30px;
+    }
+    </style>
 </head>
 
 <body>

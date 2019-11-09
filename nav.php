@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+<nav class="navbar navbar-expand bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
+    <a class="navbar-brand mr-1" href="kiemtra.html">Start Bootstrap</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -52,7 +52,7 @@
                 <a class="dropdown-item" href="#">Settings</a>
                 <a class="dropdown-item" href="#">Activity Log</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+                <a class="dropdown-item" href="logout.php">Logout</a>
             </div>
         </li>
     </ul>
@@ -62,33 +62,32 @@
 
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>Trang quản trị</span>
+        <li class="nav-item">
+        <button data-toggle="modal" data-target="#addBook" class="btn btn-outline-info float-left mt-3" style="margin-left:20px;"><i class="fas fa-plus-circle"></i> Tạo liên hệ</button>
+        </li>
+        <br>
+        <li class="nav-item">
+            <a class="btndb" href="kiemtra.php">Danh bạ</a><br><br>
+        </li>
+        <li class="nav-item">
+        <a class="btntxlh" href="">Thường xuyên liên hệ</a><br><br>
+        </li>
+        <li class="nav-item">
+            <a class="btnlhtl" href="">Liên hệ trùng lặp</a><br><br>
+            <hr>
+        </li>
+        <div class="dropdownshow">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Nhãn
             </a>
-        </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="baiso1.php">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Bài số 1</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="baiso2.php">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Bài số 2</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="baiso3.php">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Bài số 3</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="baiso4.php">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Bài số 4</span></a>
-        </li>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Bạn bè</a>
+                <a class="dropdown-item" href="#">Công việc</a>
+                <a class="dropdown-item" href="#">Liên hệ</a>
+                <a class="dropdown-item" href="#addnhan">Tạo mới</a>
+            </div>
+        </div>
     </ul>
     <div id="content-wrapper">
 
